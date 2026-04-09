@@ -94,12 +94,12 @@ a { text-decoration: none; color: inherit; }
 
 /* ---- Layout ---- */
 .container { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
-.section { padding: 140px 0; position: relative; }
+.section { padding: 80px 0; position: relative; }
 .section-dark { background: var(--bg-alt); }
 
 @media (max-width: 768px) {
   .container { padding: 0 20px; }
-  .section { padding: 80px 0; }
+  .section { padding: 60px 0; }
 }
 
 /* ---- Header ---- */
@@ -484,11 +484,11 @@ a { text-decoration: none; color: inherit; }
 }
 .section-heading {
   font-family: var(--font-head);
-  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -1.5px;
-  margin-bottom: 64px;
+  margin-bottom: 44px;
 }
 
 /* ---- Features ---- */
@@ -498,7 +498,7 @@ a { text-decoration: none; color: inherit; }
   gap: 20px;
 }
 .feature-card {
-  padding: 36px 28px;
+  padding: 28px 24px;
   border-radius: var(--radius);
   background: var(--glass);
   border: 1px solid var(--glass-border);
@@ -581,7 +581,7 @@ a { text-decoration: none; color: inherit; }
   gap: 24px;
 }
 .sport-card {
-  padding: 40px 28px;
+  padding: 32px 24px;
   border-radius: var(--radius);
   background: var(--glass);
   border: 1px solid var(--glass-border);
@@ -607,7 +607,7 @@ a { text-decoration: none; color: inherit; }
 
 /* Sport visuals */
 .sc-visual {
-  height: 160px;
+  height: 120px;
   display: flex; align-items: center; justify-content: center;
   position: relative;
   margin-bottom: 24px;
@@ -692,7 +692,7 @@ a { text-decoration: none; color: inherit; }
   text-align: center;
 }
 .stat {
-  padding: 48px 20px;
+  padding: 36px 20px;
   border-radius: var(--radius);
   background: var(--glass);
   border: 1px solid var(--glass-border);
@@ -722,7 +722,7 @@ a { text-decoration: none; color: inherit; }
 /* ---- CTA ---- */
 .cta-section { text-align: center; }
 .cta-inner {
-  padding: 80px 40px;
+  padding: 60px 40px;
   border-radius: 32px;
   background: linear-gradient(180deg, rgba(249,115,22,.06), rgba(249,115,22,.02));
   border: 1px solid rgba(249,115,22,.1);

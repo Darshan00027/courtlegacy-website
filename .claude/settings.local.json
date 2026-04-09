@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(gh gist:*)",
+      "WebFetch(domain:gist.github.com)",
+      "Bash(cp \"C:/Users/darsh/AndroidStudioProjects/CourtLegacy/assets/logo.png\" D:/courtlegacy-website/assets/logo.png)",
+      "Bash(cp \"C:/Users/darsh/AndroidStudioProjects/CourtLegacy/assets/splash_logo.png\" D:/courtlegacy-website/assets/splash_logo.png)",
+      "WebFetch(domain:www.raventrading.com)",
+      "WebFetch(domain:noomoagency.com)",
+      "Read(//c/Users/darsh/AndroidStudioProjects/CourtLegacy/assets/**)",
+      "Read(//c/Users/darsh/Downloads/**)",
+      "Bash(cp \"C:/Users/darsh/AndroidStudioProjects/CourtLegacy/store_assets/screenshot_1_live_scoring.png\" D:/courtlegacy-website/assets/ss1.png)",
+      "Bash(cp \"C:/Users/darsh/AndroidStudioProjects/CourtLegacy/store_assets/screenshot_2_tournaments.png\" D:/courtlegacy-website/assets/ss2.png)",
+      "Bash(cp \"C:/Users/darsh/AndroidStudioProjects/CourtLegacy/store_assets/screenshot_3_stats.png\" D:/courtlegacy-website/assets/ss3.png)",
+      "Bash(cp \"C:/Users/darsh/AndroidStudioProjects/CourtLegacy/store_assets/screenshot_4_ai_coaching.png\" D:/courtlegacy-website/assets/ss4.png)",
+      "WebFetch(domain:www.theycallmegiulio.com)",
+      "Read(//d//**)",
+      "Bash(npx create-next-app@latest courtlegacy-3d --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Read(//d/courtlegacy-3d/**)",
+      "Bash(npm install:*)",
+      "Bash(npx next:*)"
+    ]
+  }
+}

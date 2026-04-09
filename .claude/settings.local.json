@@ -19,7 +19,8 @@
       "Bash(npx create-next-app@latest courtlegacy-3d --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
       "Read(//d/courtlegacy-3d/**)",
       "Bash(npm install:*)",
-      "Bash(npx next:*)"
+      "Bash(npx next:*)",
+      "WebFetch(domain:courtlegacy.vercel.app)"
     ]
   }
 }
